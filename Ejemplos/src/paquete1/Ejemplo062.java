@@ -42,10 +42,10 @@ public class Ejemplo062 {
             }else{
                 // En este caso discrimina a los valores que no tienen 
                 // continuidad entre si
-                
                 if (dato == 11 || dato == 13 || dato == 14){
                     arreglo1[i] = dato;
                 }else{
+                // Caso contrario su posicion tomara el valor de 5
                     arreglo1[i] = 5;
                 }
             }
