@@ -30,7 +30,7 @@ public class Ejemplo041 {
                     + ", con valor %d\n",acumulador,
                     i, arreglo1[i]);
         }
-        System.out.printf("%s",acumulador);
+        System.out.printf("%s",acumulador.toUpperCase());
         
         
     }
