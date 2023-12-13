@@ -21,6 +21,7 @@ public class Ejemplo041 {
         // int[] arreglo1 = new int[5];
         int[] arreglo1 = {1000, 1, 2, 2000, 300};
         String acumulador = "";
+        int suma= 0;
         // System.out.println(arreglo1.length);
         // arreglo1[2] = 1000;
         // La palabra .length cuando lo asocio con un arreglo
@@ -29,8 +30,12 @@ public class Ejemplo041 {
             acumulador = String.format("%sSubíndice o Índice %d"
                     + ", con valor %d\n",acumulador,
                     i, arreglo1[i]);
+        // Esto permite sumar los valores de los valores del arreglo
+            suma = suma + arreglo1[i];
         }
-        System.out.printf("%s",acumulador.toUpperCase());
+        acumulador = String.format("%sLa suma de todos los elementos "
+                + "del arreglo es: %d", acumulador, suma);
+        System.out.printf("%s\n",acumulador.toUpperCase());
         
         
     }
